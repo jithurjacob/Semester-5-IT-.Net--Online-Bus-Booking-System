@@ -1,0 +1,73 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Default4.aspx.cs" Inherits="Default4" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <style type="text/css">
+        .style1
+        {
+            width: 658px;
+            height: 431px;
+            border-style: solid;
+            border-width: 1px;
+        }
+    </style>
+</head>
+<body style="background-color: #CCFF66">
+    <form id="form1" runat="server">
+    <div>
+    
+        <h1>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            CANCELLATION!!!!</h1>
+        <p style="background-color: #99FF99">
+            &nbsp;<table align="center" class="style1">
+                <tr>
+                    <td>
+                        <asp:Label ID="Label1" runat="server" Text="TICKTET NUMBER"></asp:Label>
+                    </td>
+                    <td>
+                        <asp:TextBox ID="TextBox1" runat="server" Height="29px" Width="215px"></asp:TextBox>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <asp:Label ID="Label2" runat="server" Text="SOURCE"></asp:Label>
+                    </td>
+                    <td>
+                        <asp:TextBox ID="TextBox2" runat="server" Height="38px" Width="214px"></asp:TextBox>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <asp:Label ID="Label3" runat="server" Text="DESTINATION"></asp:Label>
+                    </td>
+                    <td>
+                        <asp:TextBox ID="TextBox3" runat="server" Height="32px" Width="210px"></asp:TextBox>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        <asp:Button ID="Button1" runat="server" Text="SUBMIT" onclick="Button1_Click" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/USER.aspx">PREVIOUS</asp:HyperLink>
+                    </td>
+                    <td>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/CANCEL.aspx">RESET</asp:HyperLink>
+                        &nbsp;</td>
+                </tr>
+            </table>
+            &nbsp;</p>
+    
+    </div>
+    </form>
+</body>
+</html>

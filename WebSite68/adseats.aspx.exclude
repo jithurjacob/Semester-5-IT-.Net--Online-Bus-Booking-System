@@ -1,0 +1,85 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Default9.aspx.cs" Inherits="Default9" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <style type="text/css">
+        .style1
+        {
+            width: 613px;
+            height: 439px;
+            border-style: solid;
+            border-width: 2px;
+        }
+        .style2
+        {
+            height: 72px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <h1 style="text-align: center">
+        ADDITION IN SEATS!!!!</h1>
+    <p style="text-align: center">
+        &nbsp;</p>
+    <table align="center" class="style1">
+        <tr>
+            <td>
+&nbsp;&nbsp;
+                <asp:Label ID="Label1" runat="server" Text="BUS NUMBER"></asp:Label>
+            </td>
+            <td style="margin-left: 40px">
+                <asp:TextBox ID="TextBox1" runat="server" Height="24px" Width="150px"></asp:TextBox>
+            </td>
+        </tr>
+        <tr>
+            <td>
+&nbsp;&nbsp;
+                <asp:Label ID="Label2" runat="server" Text="CURRENT NO. OF SEATS"></asp:Label>
+            </td>
+            <td>
+                <asp:TextBox ID="TextBox2" runat="server" Height="22px" Width="150px"></asp:TextBox>
+            </td>
+        </tr>
+        <tr>
+            <td>
+&nbsp;&nbsp;&nbsp;
+                <asp:Label ID="Label3" runat="server" Text="SEATS ADDED"></asp:Label>
+            </td>
+            <td>
+                <asp:TextBox ID="TextBox3" runat="server" Height="28px" Width="151px"></asp:TextBox>
+            </td>
+        </tr>
+        <tr>
+            <td>
+&nbsp;&nbsp;&nbsp;
+                <asp:Label ID="Label4" runat="server" Text="TOTAL SEATS"></asp:Label>
+            </td>
+            <td>
+                <asp:TextBox ID="TextBox4" runat="server" Height="23px" Width="155px"></asp:TextBox>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                &nbsp;</td>
+            <td>
+                &nbsp;</td>
+        </tr>
+        <tr>
+            <td class="style2" colspan="2" style="text-align: left">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:Button ID="Button1" runat="server" style="text-align: right" Text="ADD" />
+                <br />
+                <br />
+                <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/UPDTN.aspx">PREVIOUS</asp:HyperLink>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/adseats.aspx">RESET</asp:HyperLink>
+            </td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>

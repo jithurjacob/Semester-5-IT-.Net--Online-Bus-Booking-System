@@ -1,0 +1,47 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="owner.master.cs" Inherits="user" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    
+    <form id="form1" runat="server">
+    
+    <div style="margin-top:50px;">
+        
+          <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/add_bus.aspx">Add bus</asp:HyperLink>
+        
+    &nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/editbus.aspx">Edit Bus</asp:HyperLink>
+&nbsp;&nbsp;
+        <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/ADD.aspx">Add Service</asp:HyperLink>
+&nbsp;
+        <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/editservice.aspx">Edit Service</asp:HyperLink>
+&nbsp;
+        <asp:HyperLink ID="HyperLink5" runat="server" NavigateUrl="~/busdetails.aspx">Bus Details</asp:HyperLink>
+&nbsp;
+        <asp:HyperLink ID="HyperLink6" runat="server" NavigateUrl="~/servicedetails.aspx">Service Details</asp:HyperLink>
+&nbsp;&nbsp;
+          <asp:HyperLink ID="HyperLink9" runat="server" 
+              NavigateUrl="~/servicecancel.aspx">Cancel Service</asp:HyperLink>
+          &nbsp;&nbsp; <asp:HyperLink ID="HyperLink8" runat="server" NavigateUrl="~/buscancel.aspx">Cancel Bus</asp:HyperLink>
+&nbsp;
+          <asp:HyperLink ID="HyperLink10" runat="server" 
+              NavigateUrl="~/owner_chnage_pwd.aspx">Change Password</asp:HyperLink>
+&nbsp;&nbsp;<asp:HyperLink ID="HyperLink7" runat="server" NavigateUrl="~/logout.aspx">Logout</asp:HyperLink>
+    </div>
+    
+    <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+          
+        </asp:ContentPlaceHolder>
+    </form>
+    <p>
+        &nbsp;</p>
+</body>
+</html>

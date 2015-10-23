@@ -1,0 +1,72 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Default2.aspx.cs" Inherits="Default2" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <style type="text/css">
+        .style1
+        {
+            width: 52%;
+            height: 282px;
+            border-style: solid;
+            border-width: 1px;
+        }
+        .style2
+        {
+            color: #000066;
+        }
+    </style>
+</head>
+<body style="background-color: #CCFF99">
+    <form id="form1" runat="server">
+    <div style="text-align: center">
+    
+        <h1>
+            <br />
+            <br />
+            <br />
+            WELCOME!!!!</h1>
+    
+    </div>
+    <div style="text-align: center">
+    
+        <p>
+            &nbsp;</p>
+    
+    </div>
+    <div style="text-align: center">
+    
+        <table align="center" class="style1">
+            <tr>
+                <td>
+                    <h2>
+                        <asp:HyperLink ID="HyperLink1" runat="server" CssClass="style2">BOOKING OF SEATS</asp:HyperLink>
+                    </h2>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h2>
+                        <asp:HyperLink ID="HyperLink2" runat="server" CssClass="style2">CANCELLATION OF TICKET</asp:HyperLink>
+                    </h2>
+                </td>
+            </tr>
+            <tr>
+                <td class="style2">
+                    <h2>
+                        <asp:HyperLink ID="HyperLink3" runat="server">BUS DETAILS</asp:HyperLink>
+                    </h2>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    &nbsp;</td>
+            </tr>
+        </table>
+    
+    </div>
+    </form>
+</body>
+</html>

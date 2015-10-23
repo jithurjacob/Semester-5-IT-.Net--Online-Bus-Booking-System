@@ -1,0 +1,152 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Default5.aspx.cs" Inherits="Default5" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <style type="text/css">
+        .style1
+        {
+            width: 613px;
+            height: 456px;
+            border-style: solid;
+            border-width: 2px;
+        }
+        .style2
+        {
+            width: 353px;
+            height: 513px;
+            background-image: url('Wallpaper+bus_bus+volvo+bus_bus+bus7.jpg');
+        }
+        .style3
+        {
+            width: 111px;
+            height: 503px;
+            border-style: solid;
+            border-width: 1px;
+        }
+        .style4
+        {
+            height: 42px;
+            width: 92px;
+        }
+        .style5
+        {
+            width: 92px;
+        }
+        .style6
+        {
+            height: 79px;
+        }
+    </style>
+</head>
+<body style="background-color: #FFCC66">
+    <form id="form1" runat="server">
+    <div style="text-align: center">
+    
+        <h1>
+            UPDATION IN DETAILS!!!!</h1>
+    
+    </div>
+    <div style="text-align: center">
+    
+        <table align="left" class="style2">
+            <tr>
+                <td>
+                    <table align="left" class="style3">
+                        <tr>
+                            <td class="style5">
+                                <asp:HyperLink ID="HyperLink6" runat="server" NavigateUrl="~/INTRO.aspx" 
+                                    style="font-weight: 700; color: #CC0066">HOME</asp:HyperLink>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="style5">
+                                <asp:HyperLink ID="HyperLink7" runat="server" 
+                                    style="font-weight: 700; color: #CC0099" NavigateUrl="~/abt.aspx">ABOUT US</asp:HyperLink>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="style5">
+                                <h4>
+                                    <asp:HyperLink ID="HyperLink8" runat="server" NavigateUrl="~/login.aspx" 
+                                        style="color: #CC0099">ADMIN</asp:HyperLink>
+                                </h4>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="style5">
+                                <asp:HyperLink ID="HyperLink9" runat="server" NavigateUrl="~/USER.aspx" 
+                                    style="color: #CC0099; font-weight: 700">USER</asp:HyperLink>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="style4">
+                                <asp:HyperLink ID="HyperLink10" runat="server" NavigateUrl="~/CNTCT.aspx" 
+                                    style="color: #FF3399">CONTACT US</asp:HyperLink>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    
+    </div>
+    <div style="text-align: center">
+    
+        <table align="center" class="style1">
+            <tr>
+                <td>
+                    <h3>
+                        <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/ADD.aspx">ADDITION OF NEW BUSES</asp:HyperLink>
+                    </h3>
+                </td>
+            </tr>
+            <tr>
+                <td class="style6">
+                    <h3>
+                        <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/TCKTCHRG.aspx">CHANGE IN TICKET CHARGE</asp:HyperLink>
+                    </h3>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h3>
+                        <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/timechange.aspx">CHANGE IN BUS TIMINGS</asp:HyperLink>
+                    </h3>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h3>
+                        <asp:HyperLink ID="HyperLink5" runat="server" NavigateUrl="~/cancelbus.aspx">CANCELLATION OF BUSES</asp:HyperLink>
+                    </h3>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    &nbsp;</td>
+            </tr>
+            <tr>
+                <td>
+                    &nbsp;</td>
+            </tr>
+        </table>
+    
+    </div>
+    <div style="text-align: center">
+    
+        <p>
+            &nbsp;</p>
+    
+    </div>
+    <div style="text-align: center">
+    
+        <p>
+            &nbsp;</p>
+    
+    </div>
+    </form>
+</body>
+</html>
